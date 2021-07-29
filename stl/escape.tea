@@ -14,7 +14,7 @@ import tea.green.string
 `set seq = "\x1b"
 
 module escape {
-    fn run(data: string) = string {
+    fn escape#run(data: string) = string {
         var mut __data : string = ""
         var mut collect: string = ""
 
